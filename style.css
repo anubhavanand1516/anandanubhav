@@ -148,10 +148,10 @@ html{
     border-radius: 30px;
 }
 .main .section .intro .circle-2{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    top: -120px;
+    bottom: -120px;
     left: 32%;
     background: #003366;
     opacity: 0.7;
