@@ -12,9 +12,20 @@
                 <input type="text" name="name" class="input" placeholder="Enter your name">
                 <input type="email" name="email" class="input" placeholder="Enter your Email">
                 <textarea name="msg" id="msg" cols="30" rows="10"placeholder="Enter Your Message"></textarea>
-                <input type="submit" value="SEND" id="send">
+                <input type="submit" onclick="confirmation()" value="SEND" id="send">
+                <script>
+                function confirmation() {
+                    var ans = confirm("for send message just press ok ")
+                    if (ans) {
+                        alert("thanks for your submission")
+                    }
+                    else {
+                        alert("Sorry! you click on cancle submit")
+                    }
+                }
+                </script>
+                </input>
             </form>
         </section>
-
     </body>
 </html>
